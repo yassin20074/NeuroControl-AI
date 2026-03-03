@@ -1,0 +1,28 @@
+# =========================
+# Core Framework
+# =========================
+fastapi==0.110.0
+uvicorn[standard]==0.27.1
+
+# =========================
+# AI Agent
+# =========================
+neuralnode
+
+# =========================
+# Vector Memory
+# =========================
+sentence-transformers==2.6.1
+chromadb==0.4.24
+
+# =========================
+# Authentication & Security
+# =========================
+python-jose==3.3.0
+passlib[bcrypt]==1.7.4
+
+# =========================
+# Utilities
+# =========================
+pydantic==2.6.1
+python-multipart==0.0.9
